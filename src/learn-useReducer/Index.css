@@ -1,0 +1,50 @@
+.Main2 {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  }
+input[type=text2] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #132444;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+input[type=text2]:focus {
+    border: 3px solid #555;
+  }
+  .Text{
+    font-size: 50px;
+  }
+  
+form[type=tab] {
+  width: 80%;
+  margin: 0px 0px 0px 720px;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+table, th, td {
+  border: 0px solid black;
+  padding: 5px;
+  text-align: left;
+}
